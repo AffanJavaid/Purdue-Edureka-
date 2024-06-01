@@ -1,0 +1,19 @@
+I have 2 branches 1 is master and I have created new branch B1 from master.
+I have made changes in master branch and now wants to merge these changes in B1.
+
+Following are the types of merging 
+
+1- Merge (Fast Forward)
+It will merge all the commit history of master branch on top of B1 branch as it is. If 5 commits are in master 
+than 5 commits will be on top of B1 branch.
+
+2- Rebase 
+It will merge all the commit history of master branch on top of master branch previous history. And then all 
+the commit history of B1 branch. If 5 commits are in master than 5 commits will be on top of master branch. And 
+then commits of B1 branch. 
+
+3- Squash
+It will merge all the commit history of master branch as a single commit on top of B1 branch. If 5 commits are in master 
+than 1 commit will be on top of B1 branch.
+
+ 
